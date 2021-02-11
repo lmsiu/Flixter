@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivposter"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivposter"
+        android:textSize="24dp"
+        tools:text='"Fast and Furious"' />
+
+    <TextView
+        android:id="@+id/tvoverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtitle"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ivposter"
+        tools:text="&quot;Fast and Furious' new movie&quot;" />
+
+</RelativeLayout>
