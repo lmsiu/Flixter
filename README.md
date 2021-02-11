@@ -28,7 +28,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 Some challenges I had while developing the app were getting used to using the RecyclerView. I'm still getting used to making adapters too. 
 I also had some challenges with the design. The movie overview would get cut off if it was to long so I fixed this by making the height of the TextView wrap content.
-I spent 4 hours on part 1
+I spent 4 hours on part 1.
 Overall pretty fun though XD
 
 ### Open-source libraries used
