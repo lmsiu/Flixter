@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/datvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        tools:text="Demon Slayer" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10" />
+
+    <TextView
+        android:id="@+id/overviewtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="My boy Tanjiro gotta fight some demons on a train, but he's never been on a train before. Anyways he has to fight some demons and take down the guy who turned his sister into a demon. Acompanied by his sleep-for-energy sister, an angry boar, and a girl-crazy scaredy cat, Tanjiro wil face unknown challenges as a Demon Slayer" />
+</LinearLayout>
