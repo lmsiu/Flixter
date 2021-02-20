@@ -1,16 +1,14 @@
-# Flix
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+# Flixter
+Flixter is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
- `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
-## Flix Part 2
+## Flixter Part 2
 
 ### User Stories
 
 #### REQUIRED (10pts)
 
-- [ ] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [ ] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+- [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 #### BONUS
 
@@ -24,13 +22,12 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="Flixter Full Demo.gif" width=250><br>
 
 ### Notes
 
-A challenge I had while building the app was the app kept crashing when I changed screens. I figured out that this was because the id I was using to refer to the overview textbox was not set to what I thought it was. This taught me that I have to pay attention to what I name things. 
+A challenge I had while building the app was the app kept crashing when I changed screens. I figured out that this was because the id I was using to refer to the overview textbox was not set to what I thought it was. This taught me that I have to pay attention to what I name things. I also had trouble with the YouTube player and found out that a 30 emulator was not comaptible with the YouTube player and had to switch to a 29 one. 
+Total time spent on part 2: 3 hours
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
